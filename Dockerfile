@@ -32,8 +32,8 @@ ENV PYTHONUNBUFFERED 1
 # Environment Variables
 ENV SECRET_KEY %d#l!8i_*!qb!bd9i)^ie86a5x^4z6e!mu-03l%ujt54g72p&m
 ENV NAME invoice
-ENV USER mpedigree
-ENV PASSWORD mpedigreepass
+ENV USER  Lipo
+ENV PASSWORD Lipo
 ENV HOST 192.168.33.10
 ENV PORT 3306
 ENV DEBUG False
