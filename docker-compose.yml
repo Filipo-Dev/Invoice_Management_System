@@ -7,7 +7,7 @@ services:
         networks:
           - ims-network
         volumes:
-          - ims-django-static:/Invoice_Management_System/static
+          - ims-django-static:/Invoice-Management-System/static
         ports:
           - 8000:8000
           - 9001:9001
@@ -19,7 +19,7 @@ services:
         networks:
           - ims-network
         volumes:
-          - ims-django-static:/Invoice_Management_System/static
+          - ims-django-static:/Invoice-Management-System/static
         ports:
           - 80:80
         depends_on:
