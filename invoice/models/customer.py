@@ -4,7 +4,7 @@ from django.db import models
 
 class Customer(models.Model):
     """
-       Models for a customer.
+       Models for customer.
     """
 
     name = models.CharField(max_length=256, null=False, blank=False,
